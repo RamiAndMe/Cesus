@@ -5,7 +5,7 @@ from telethon import events, Button
 
 @BotzHub.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("Hello!",
+    await event.reply("DAssaaaag!",
                     buttons=[
                         [Button.url("ButtonUrl", url="https://t.me/xditya")],
                         [Button.inline("Inline Button",data="example")]
